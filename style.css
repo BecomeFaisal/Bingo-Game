@@ -1,0 +1,58 @@
+
+ body{
+    background-color: #003049;
+} 
+h1{
+    text-align: center;
+    color: white;
+    
+}
+.Grid{
+    display: grid;
+    margin-left: 70vh;
+    padding: 4px;
+    height: 70vh;
+    width: 70vh;
+
+    background-color: #355070 ;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px 5px;
+    border: 5px solid grey;
+    border-radius: 10px;
+}
+.btum{
+     height: 30%;
+     width: 30%; 
+     background-color:#38a3a5;
+    text-align: center;
+    padding: 34%;
+    font-size: x-large;
+    font-weight: 800;
+} 
+
+.btum:hover{
+    height: 34%;
+    width:34%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.strike{
+    color: wheat;
+    text-decoration: line-through black;
+}
+table{
+    margin: 0 auto;
+}
+.Letters-Bingo{
+    color: Wheat;
+    font-size: 40px;
+    display: inline;
+}
